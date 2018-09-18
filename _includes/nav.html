@@ -1,0 +1,12 @@
+<nav class="nav-bar">
+    <div class="nav-hold">
+        <a href="#" class="nav-logo">Duebox</a>
+        <a id="nav-menu" class="nav-menu">&#9776;</a>
+        <ul class="nav-list" id="nav">
+            <li><a href="{{site.baseurl}}/" {% if page.url == '/' %}class="nav_current"{% endif %}>Blog</a></li>
+            <li><a href="{{site.baseurl}}/work" {% if page.url == '/work/' %}class="nav_current"{% endif %}>Work</a></li>
+            <li><a href="{{site.baseurl}}/diary" {% if page.url == '/diary/' %}class="nav_current"{% endif %}>Diary</a></li>
+            <li><a href="{{site.baseurl}}/about" {% if page.url == '/about/' %}class="nav_current"{% endif %}>About</a></li>
+        </ul>
+    </div>
+</nav>
